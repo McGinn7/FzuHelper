@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">福大助手</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- url -->
+    <string name="url_get_credit">http://59.77.226.124/dwsy/index.php/Fzuhelp/getuserinfo/</string>
+    <string name="url_sign_or_share">http://59.77.226.124/dwsy/index.php/Fzuhelp/increaseCredit/</string>
+	<string name="url_login">http://api.west2online.com/fzuhelper/fzulogin.php?</string>
+	<string name="url_credit">http://api.west2online.com/fzuhelper/GradePoint.php?</string>
+	<string name="url_date">http://api.west2online.com/fzuhelper/nowdate.php</string>
+	<string name="url_mark">http://api.west2online.com/fzuhelper/fzugetmark.php?</string>
+	<string name="url_exam">http://api.west2online.com/fzuhelper/examroom.php?</string>
+	<string name="url_course">http://api.west2online.com/fzuhelper/timeTable.php?</string>
+	<string name="url_library">http://59.77.226.124/studentApi/library.php?</string>
+	<string name="url_library_getbook">http://59.77.226.124/studentApi/get_book.php?</string>
+	<string name="url_library_renew">http://59.77.226.124/studentApi/renew.php?</string>
+	<string name="url_library_reser">http://59.77.226.124/studentApi/appointment.php?</string>
+	<string name="url_judge_teacher">http://api.west2online.com/fzuhelper/onekey.php?</string>
+	<string name="url_blank">http://3w.west2online.com/Robin/emptyRoom.php?</string>
+    <string name="url_jwc_notice">http://api.west2online.com/FzuHelper/fzu_jwc.php?</string>
+    <string name="url_market">http://api.west2online.com/FzuHelper/fzu_shmarket.php?page=</string>
+    <string name="url_physics">http://59.77.226.124/dwsy/</string>
+    <string name="url_activity">http://3w.west2online.com/Robin/activity.html</string>
+	<!-- 登录 -->
+	<string name="net_delay">网络异常?请稍后再试</string>
+    <string name="net_error">教务处网站异常或网络错误</string>
+    <string name="net_error_library">图书馆网站异常或网络错误</string>
+    <string name="net_error_market">二手市场网站异常或网络错误</string>
+    <string name="login_username_null">用户名为空!</string>    
+    <string name="login_password_null">密码为空!</string>
+    <string name="login_contain_error">用户名或密码错误</string>
+	<string name="login_number">教务处账号</string>
+	<string name="login_password">教务处密码</string>
+	<string name="login_button">登录</string>
+	<string name="login_no_account">没有账号?</string>
+	<!-- 主界面 -->
+	<string name="visit_toast">游客模式下将无法更新数据</string>
+	<string name="double_back">双击退出</string>
+	<string name="button_study">学习相关</string>
+	<string name="button_life">生活相关</string>
+	<string name="button_setting">设置</string>
+	<string name="button_quit">注销</string>
+	<string name="credit_q1">积分有什么用?</string>
+	<string name="credit_a1">&#160;&#160;&#160;积分可用于一些限制功能，例如加速物理实验预约。并且可在不定期的活动中派上用场</string>
+	<string name="credit_q2">如何获得积分?</string>
+	<string name="credit_a2">&#160;&#160;&#160;每天使用福大助手，将进行自动签到，或在设置中分享福大助手给你的好友，即可获得相应积分</string>
+	<!-- 生活 -->
+	<string name="back">返回</string>
+	<string name="about">关于</string>
+	<!-- 图书馆 -->
+	<string name="lib_username">账号(学生卡号)</string>
+	<string name="lib_password">密码(初始8888)</string>
+	<string name="lib_menu_search">检索</string>
+	<string name="lib_menu_login">登录</string>
+	<string name="lib_search">查询</string>
+	<string name="lib_login">登录</string>
+	<string name="lib_hint">请输入书名</string>
+	<!-- 成绩 -->
+	<string name="mark_menu_score">我的成绩</string>
+	<string name="mark_menu_credit">我的绩点</string>
+	<string name="credit_least">学科最低分</string>
+	<string name="credit_total">总学分</string>
+	<string name="credit_totalmark">学分总成绩</string>
+	<string name="credit_gradepoint">总绩点</string>
+	<!-- 空教室 -->
+	<string name="choose_time">选择时间</string>
+	<string name="choose_place">选择地点</string>
+	<!-- 课表 -->
+	<string name="course_monday">周一</string>
+	<string name="course_tuesday">周二</string>
+	<string name="course_wednesday">周三</string>
+	<string name="course_thursday">周四</string>
+	<string name="course_friday">周五</string>
+	<string name="course_saturday">周六</string>
+	<string name="course_sunday">周日</string>
+	<string name="course_room">教室</string>
+	<string name="course_teacher">老师</string>
+	<string name="course_time">时间</string>
+	<string name="course_schedule">周数</string>
+	
+	<!-- 设置界面 -->
+	<string name="title_activity_about">AboutActivity</string>
+    <string name="FAQ">FAQ</string>
+    <string name="FAQ_hide">隐藏FAQ</string>
+    <string name="about_hide">隐藏关于</string>
+    <string name="advice">意见反馈</string>
+    <string name="share">分享好友</string>
+    <string name="FAQ_1">Q：福大助手为什么在显示不全或者排版有问题？</string>
+    <string name="FAQ_1_answer">A：因为安卓手机屏幕大小相差较大，且我们所能测试的机子有限，所以难免会出现显示不全的情况。若发现该种情况，请反馈给我们，我们将进行相应的更改。谢谢合作！</string>
+    <string name="FAQ_2">Q：福大助手没有我想要的功能?</string>
+    <string name="FAQ_2_answer">A：因为作者们能力和精力有限，所以只能尽可能集成目前所能实现的功能。如果您有好的建议，可反馈给我们。我们或将继续更新，做得更好！</string>
+    <string name="FAQ_3">Q：主界面上左上角的数值是什么？</string>
+    <string name="FAQ_3_answer">A：积分。</string>
+    <string name="FAQ_4">Q：积分有什么作用</string>
+    <string name="FAQ_4_answer">A：作为给支持福大助手用户的回馈，当累加到一定的积分时可用于一些限制功能~</string>
+    <string name="FAQ_5">Q：如何获得积分?</string>
+    <string name="FAQ_5_answer">打开福大助手后，将进行自动签到，或点击下方的分享好友，即可获得相应的积分。</string>
+    <string name="about_1">版本信息：</string>
+    <string name="about_1_content">Version:2.0</string>
+    <string name="about_2">联系我们：</string>
+    <string name="about_2_content">McGinn：\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;扣扣：958032738\n
+        						     李瑶池：\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Email：liyaochi@live.com\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;新浪微博：没有人是李妖迟\n
+        						     檀灵潇：\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;扣扣：1025934610</string>
+    <string name="about_3">感谢：</string>
+    <string name="about_3_content">技术指导：林锦波、王洪根\n接口支持：洪伟鹏、杨绳春\n资源支持：数计学院西二在线工作室\n</string>
+    <string name="about_4">声明：</string>
+    <string name="about_5">检查更新</string>
+    <string name="about_4_content">福大助手旨在为人民服务，无广告，不收费，绝对无公害！</string>
+    <string name="my_email">teenyisitboy@gmail.com</string>
+    <string name="my_email_title">作者我要给你生孩子！</string>
+    <string name="my_email_content">作者你好，对于福大助手，我有些建议。吧啦吧啦巴拉~</string>
+    <string name="share_content">福大助手太好用了，作者太帅了，小伙伴们快来一起玩耍吧！</string>
+    <string name="share_url">http://3w.west2online.com/robin/download.html</string>
+	<string name="updated">已经是最新版本</string>
+</resources>

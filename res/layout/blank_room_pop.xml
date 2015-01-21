@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+    
+    <LinearLayout 
+		android:layout_height="0dp"
+		android:layout_weight="6"
+		android:layout_width="match_parent"
+		android:layout_gravity="center_horizontal"
+		android:orientation="horizontal"
+		android:paddingLeft="12dp"
+		android:paddingRight="12dp"
+		>
+		<LinearLayout
+		    android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:gravity="center"
+             >
+
+            <kankan.wheel.widget.WheelView
+                android:id="@+id/blank_room_site"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+		
+		
+	  	<LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:gravity="center"
+             >
+		<kankan.wheel.widget.WheelView android:id="@+id/blank_room_time"
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			/>
+		</LinearLayout>
+		
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1">
+	    <Button 
+	        android:id="@+id/blank_room_check"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:textSize="@dimen/middle_text_size"
+	        android:text="确定"
+	        android:textColor="@color/white"
+	        android:background="@color/blue"/>
+	</LinearLayout>
+	
+</LinearLayout>

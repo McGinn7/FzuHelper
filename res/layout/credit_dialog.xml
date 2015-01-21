@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:padding="10dp"
+    android:background="@drawable/white_round_corner">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/credit_q1"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/middle_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/credit_a1"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/middle_text_size" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/credit_q2"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/middle_text_size" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/credit_a2"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/middle_text_size" />
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"></LinearLayout>
+        <Button
+            android:id="@+id/credit_dialog_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:text="返 回"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/large_text_size"/>
+    </LinearLayout>
+</ScrollView>

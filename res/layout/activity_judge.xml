@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black2">
+    <!-- 显示内容 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+        <LinearLayout 
+	        android:id="@+id/text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:gravity="center_horizontal|bottom">
+	        <TextView 
+				android:layout_width="match_parent"
+	       		android:layout_height="wrap_content"
+	  			android:gravity="left"
+	  			android:text="Runtime :"
+	       		android:textColor="@color/white"
+	    		android:textSize="@dimen/large_text_size"/>
+	     	<TextView
+	     	    android:id="@+id/text_runtime"
+	    		android:layout_width="match_parent"
+	   			android:layout_height="wrap_content"
+	       		android:gravity="right"
+	        	android:textColor="@color/white"
+	         	android:textSize="@dimen/large_text_size"/>
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+	   			android:gravity="left"
+	    		android:text="Result :"
+	         	android:textColor="@color/white"
+	         	android:textSize="@dimen/large_text_size"/>
+	    	<TextView
+	    	    android:id="@+id/judge_text_content"
+	         	android:layout_width="match_parent"
+	      		android:layout_height="wrap_content"
+	        	android:gravity="right"
+	         	android:textColor="@color/white"
+	        	android:textSize="@dimen/large_text_size"/>
+	    </LinearLayout>
+    </LinearLayout>
+    <!-- 按钮 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/blue2"
+            android:text="开始评测"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</LinearLayout>

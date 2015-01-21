@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <LinearLayout
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:id="@+id/side">
+        <TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="0dp"
+		android:layout_weight="7"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="5dp"
+		android:gravity="center_vertical" 
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/jwc_title"
+			android:layout_width="match_parent"
+ 			android:layout_height="match_parent"
+			android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:text="关于开办2014年第十二期新上岗教师教学达标培"
+            android:textColor="@color/black"
+            android:textSize="@dimen/large_text_size" />
+         <TextView
+             android:id="@+id/jwc_date"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:paddingBottom="10dp"
+             android:paddingTop="5dp"
+             android:gravity="right"
+             android:text="2014-07-02"
+             android:textColor="@color/grey"
+             android:textSize="@dimen/middle_text_size" />
+     </LinearLayout>
+
+</LinearLayout>

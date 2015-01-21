@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_color">#509FE0F6</color>
+    <!-- 常用颜色 -->
+    <color name="black">#000000</color>
+    <color name="black2">#282e3c</color>
+	<color name="white">#FFFFFF</color>
+	<color name="white2">#30FFFFFF</color>
+	<color name="red">#f36a5e</color>
+    <color name="orange">#f3cd5c</color>
+    <color name="green">#34b353</color>
+	<color name="grey">#9E8F8F</color>
+	<color name="blue">#19b4ea</color>
+	<color name="blue2">#30b7b0</color>
+	<color name="purple">#6069f5</color>
+	<color name="dark_grey">#4D4D4D</color>
+	<color name="green_light">#99bc00</color>
+	<color name="transparent">#00000000</color>
+	<!-- 登录界面 -->
+    <color name="login_hint">#9CAAB7</color>
+    <color name="login_button">#FFFFFF</color>
+    <color name="login_button_front">#546FB4</color>
+    <color name="login_button_back">#3A4E81</color>    
+
+	<!-- 侧边栏 -->
+	<color name="side_color1">#B5EF9B</color>
+	<color name="side_color2">#FDF5A1</color>
+	<color name="side_color3">#B2DCF5</color>
+	<color name="side_color4">#FFB9AD</color>
+
+	<!-- 学习菜单 -->
+	<color name="study_color1">#A6D65E</color>
+	<color name="study_color2">#8DB441</color>
+	<color name="study_color3">#588544</color>
+	
+	<!-- 生活菜单 -->
+	<color name="life_color1">#189B71</color>
+	<color name="life_color2">#1F7D6B</color>
+	<color name="life_color3">#114552</color>
+	
+	<!-- 图书馆 -->
+	<color name="lib_menu_search">#4C9AC0</color>
+	<color name="lib_menu_login">#257EAA</color>
+	<color name="lib_button">#AA000000</color>
+	<color name="lib_search">#FFFFFF</color>
+	<color name="lib_exittext">#FFFFFF</color>
+	
+	<!-- 天气 -->
+	<color name="weather_bg">#30010101</color>
+	
+	<!-- 成绩 -->
+	<color name="mark_menu_score">#30bfff</color>
+	<color name="mark_menu_credit">#0eacf2</color>
+	<color name="mark_menu_term">#B4162F25</color>
+	<color name="mark_score">#7E000F</color>
+	
+	<!-- 课表 -->
+	<color name="course_grey">#aaaaaa</color>
+	<color name="course_single">#BBbeb8b3</color>
+	<color name="course_background">#f7f7f7</color>
+	<color name="course_today_background">#BB009AD2</color>
+	<color name="course_color1">#a89dda</color>
+	<color name="course_color2">#95cf62</color>
+	<color name="course_color3">#6bcef0</color>
+	<color name="course_color4">#a89dda</color>
+	<color name="course_color5">#dc91b4</color>
+	<color name="course_color6">#70bbac</color>
+	<color name="course_color7">#6199e6</color>
+	<color name="course_color8">#f3c672</color>
+	<color name="course_color9">#fb9893</color>
+	<color name="course_color10">#03aa8c</color>
+	<color name="course_color11">#5d76ba</color>
+	<color name="course_color12">#AFf7911e</color>
+	<color name="course_color13">#AAf03c42</color>
+	<color name="course_color14">#00755E</color>
+	<color name="course_color15">#32b25d</color>
+	<color name="course_color16">#ffc7b1</color>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="term_list">
+        <item>大一上学期</item>
+        <item>大一下学期</item>
+        <item>大二上学期</item>
+        <item>大二下学期</item>
+        <item>大三上学期</item>
+        <item>大三下学期</item>
+        <item>大四上学期</item>
+        <item>大四下学期</item>
+        <item>大五上学期</item>
+        <item>大五下学期</item>
+        <item>研一上学期</item>
+        <item>研一下学期</item>
+        <item>研二上学期</item>
+        <item>研二下学期</item>
+        <item>研三上学期</item>
+        <item>研三下学期</item>
+    </string-array>
+    <string-array name="array_blank_class_site">
+        <item>西三</item>
+        <item>西二</item>
+        <item>西一</item>
+        <item>中楼</item>
+        <item>东一</item>
+        <item>东二</item>
+        <item>东三</item>
+        <item>文一</item>
+        <item>文二</item>
+    </string-array>
+    <string-array name="array_blank_class_time">
+        <item>01-02</item>
+        <item>03-04</item>
+        <item>05-06</item>
+        <item>07-08</item>
+        <item>晚上</item>
+    </string-array>
+    <string-array name="array_blank_class_floor">
+        <item>一楼</item>
+        <item>二楼</item>
+        <item>三楼</item>
+        <item>四楼</item>
+        <item>五楼</item>
+    </string-array>
+</resources>
